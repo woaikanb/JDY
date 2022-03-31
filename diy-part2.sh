@@ -21,7 +21,7 @@ sed -i 's/R22.3.13/For FMJYY23/g' package/lean/default-settings/files/zzz-defaul
 
 sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=PandoraBox/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-sed -i '/set wireless.default_radio0.ssid=PandoraBox/a\ set wireless.default_radio1.ssid=P2W' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio0.ssid=PandoraBox/a\ set wireless.default_radio1.ssid=JDY' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
 
