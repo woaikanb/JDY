@@ -17,7 +17,7 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='PandoraBox'' pa
 
 sed -i "s/OpenWrt /PandoraBox/g" package/lean/default-settings/files/zzz-default-settings
 
-sed -i 's/R22.4.1/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R22.5.5/For FMJYY23/g' package/lean/default-settings/files/zzz-default-settings
 
 sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=PandoraBox/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
